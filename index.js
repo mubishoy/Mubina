@@ -1,43 +1,62 @@
 
+function t1() {
+    let rasmlar = document.querySelectorAll(".r")
 
-function tekshir1() {
-            let m = document.getElementById('manzil').value.trim();
-            let t = document.getElementById('telefon').value.trim();
-            if (m === 'Andijon' && t === '777') {
-                document.body.style.backgroundColor = 'blue'; // ko'k rang
-            } else {
-                document.body.style.backgroundColor = 'orangered'; // olov rang
-            }
-        }
+   for (let i = 0; i < rasmlar.length; i++) {
+   
+     rasmlar[i].style.borderRadius = "50%"
+   }
 
-        function tekshir2() {
-            let l = document.getElementById('login2').value;
-            let p = document.getElementById('parol2').value;
-            if (l === p && l !== "") {
-                document.body.style.backgroundColor = 'green'; // yashil
-            } else {
-                document.body.style.backgroundColor = 'red'; // qizarsin
-            }
-        }
-
-      
-        function tekshir3() {
-            let lInput = document.getElementById('login3');
-            let pInput = document.getElementById('parol3');
-            
-            if (lInput.value === 'admin' && pInput.value === '123') {
-                lInput.classList.add('success-border');
-                lInput.classList.remove('error-border');
-                pInput.classList.add('success-border');
-                pInput.classList.remove('error-border');
-            } else {
-                lInput.classList.add('error-border');
-                lInput.classList.remove('success-border');
-                pInput.classList.add('error-border');
-                pInput.classList.remove('success-border');
-            }
-        }
+}
 
 
 
+function t2() {
+    let rasm = document.querySelectorAll(".r1")
 
+    for (let i = 0; i < rasm.length; i++) {
+    
+        rasm[i].style.borderRadius = "50%"
+        
+    }
+} 
+
+function t3() {
+    let  mm = document.querySelectorAll(".mn")
+
+    for (let i = 0; i < mm.length; i++) {
+    
+        mm[i].style.borderRadius = "50%"
+        
+    }
+} 
+
+function t4(){
+    let n = document.querySelectorAll(".n")
+
+    for (let i = 0; i < n.length; i++) {
+       
+        n[i].style.width = "0"
+    }
+    
+}
+
+function t5(){
+    let w = document.querySelectorAll(".w")
+
+    for (let i = 0; i < w.length; i++) {
+       
+       w[i].style.width = "0"
+    }
+    
+}
+
+function t6(){
+    let s = document.querySelectorAll(".s")
+
+    for (let i = 0; i < s.length; i++) {
+       
+       s[i].style.width = "200px"
+    }
+    
+}
