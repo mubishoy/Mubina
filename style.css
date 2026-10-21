@@ -1,0 +1,30 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            transition: background-color 0.3s ease;
+        }
+        .section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background: #fff;
+        }
+        input {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+        .error-border {
+            border-color: red !important;
+        }
+        .success-border {
+            border-color: green !important;
+        }
